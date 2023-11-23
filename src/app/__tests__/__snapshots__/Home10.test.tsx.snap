@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `<div />`;
+
+exports[`should render correctly 2`] = `<div />`;
+
+exports[`should render correctly2 1`] = `<div />`;
+
+exports[`should render correctly3 1`] = `<div />`;
+
+exports[`should render correctly4 1`] = `<div />`;
