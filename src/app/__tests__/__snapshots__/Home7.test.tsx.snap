@@ -1,0 +1,745 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<div>
+  <form
+    class="flex gap-2 items-center"
+  >
+    <label
+      for="title"
+      hidden=""
+    >
+      New Todo
+    </label>
+    <input
+      class="text-2xl p-1 rounded-lg flex-grow w-full"
+      id="title"
+      name="title"
+      placeholder="New Todo"
+      type="text"
+      value=""
+    />
+    <button
+      class="p-2 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-green-500 hover:cursor-pointer hover:bg-green-400 disabled:bg-gray-300"
+      disabled=""
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+  <article
+    class="my-4 flex justify-between items-center"
+  >
+    <label
+      class="text-2xl hover:underline"
+      data-testid="todo-item"
+      for="4"
+    >
+      Write Code 💻
+    </label>
+    <div
+      class="flex items-center gap-4"
+    >
+      <input
+        class="min-w-[2rem] min-h-[2rem]"
+        id="4"
+        name="completed"
+        type="checkbox"
+      />
+      <button
+        class="p-3 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-red-400 hover:cursor-pointer hover:bg-red-300"
+        data-testid="delete-button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+          />
+        </svg>
+      </button>
+    </div>
+  </article>
+  <article
+    class="my-4 flex justify-between items-center"
+  >
+    <label
+      class="text-2xl hover:underline"
+      data-testid="todo-item"
+      for="3"
+    >
+      Go to Work ⚒
+    </label>
+    <div
+      class="flex items-center gap-4"
+    >
+      <input
+        class="min-w-[2rem] min-h-[2rem]"
+        id="3"
+        name="completed"
+        type="checkbox"
+      />
+      <button
+        class="p-3 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-red-400 hover:cursor-pointer hover:bg-red-300"
+        data-testid="delete-button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+          />
+        </svg>
+      </button>
+    </div>
+  </article>
+  <article
+    class="my-4 flex justify-between items-center"
+  >
+    <label
+      class="text-2xl hover:underline"
+      data-testid="todo-item"
+      for="2"
+    >
+      Get Coffee ☕☕☕
+    </label>
+    <div
+      class="flex items-center gap-4"
+    >
+      <input
+        class="min-w-[2rem] min-h-[2rem]"
+        id="2"
+        name="completed"
+        type="checkbox"
+      />
+      <button
+        class="p-3 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-red-400 hover:cursor-pointer hover:bg-red-300"
+        data-testid="delete-button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+          />
+        </svg>
+      </button>
+    </div>
+  </article>
+  <article
+    class="my-4 flex justify-between items-center"
+  >
+    <label
+      class="text-2xl hover:underline"
+      data-testid="todo-item"
+      for="1"
+    >
+      Wave hello! 👋
+    </label>
+    <div
+      class="flex items-center gap-4"
+    >
+      <input
+        class="min-w-[2rem] min-h-[2rem]"
+        id="1"
+        name="completed"
+        type="checkbox"
+      />
+      <button
+        class="p-3 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-red-400 hover:cursor-pointer hover:bg-red-300"
+        data-testid="delete-button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+          />
+        </svg>
+      </button>
+    </div>
+  </article>
+</div>
+`;
+
+exports[`should render correctly2 1`] = `
+<div>
+  <form
+    class="flex gap-2 items-center"
+  >
+    <label
+      for="title"
+      hidden=""
+    >
+      New Todo
+    </label>
+    <input
+      class="text-2xl p-1 rounded-lg flex-grow w-full"
+      id="title"
+      name="title"
+      placeholder="New Todo"
+      type="text"
+      value=""
+    />
+    <button
+      class="p-2 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-green-500 hover:cursor-pointer hover:bg-green-400 disabled:bg-gray-300"
+      disabled=""
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+  <article
+    class="my-4 flex justify-between items-center"
+  >
+    <label
+      class="text-2xl hover:underline"
+      data-testid="todo-item"
+      for="4"
+    >
+      Write Code 💻
+    </label>
+    <div
+      class="flex items-center gap-4"
+    >
+      <input
+        class="min-w-[2rem] min-h-[2rem]"
+        id="4"
+        name="completed"
+        type="checkbox"
+      />
+      <button
+        class="p-3 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-red-400 hover:cursor-pointer hover:bg-red-300"
+        data-testid="delete-button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+          />
+        </svg>
+      </button>
+    </div>
+  </article>
+  <article
+    class="my-4 flex justify-between items-center"
+  >
+    <label
+      class="text-2xl hover:underline"
+      data-testid="todo-item"
+      for="3"
+    >
+      Go to Work ⚒
+    </label>
+    <div
+      class="flex items-center gap-4"
+    >
+      <input
+        class="min-w-[2rem] min-h-[2rem]"
+        id="3"
+        name="completed"
+        type="checkbox"
+      />
+      <button
+        class="p-3 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-red-400 hover:cursor-pointer hover:bg-red-300"
+        data-testid="delete-button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+          />
+        </svg>
+      </button>
+    </div>
+  </article>
+  <article
+    class="my-4 flex justify-between items-center"
+  >
+    <label
+      class="text-2xl hover:underline"
+      data-testid="todo-item"
+      for="2"
+    >
+      Get Coffee ☕☕☕
+    </label>
+    <div
+      class="flex items-center gap-4"
+    >
+      <input
+        class="min-w-[2rem] min-h-[2rem]"
+        id="2"
+        name="completed"
+        type="checkbox"
+      />
+      <button
+        class="p-3 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-red-400 hover:cursor-pointer hover:bg-red-300"
+        data-testid="delete-button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+          />
+        </svg>
+      </button>
+    </div>
+  </article>
+  <article
+    class="my-4 flex justify-between items-center"
+  >
+    <label
+      class="text-2xl hover:underline"
+      data-testid="todo-item"
+      for="1"
+    >
+      Wave hello! 👋
+    </label>
+    <div
+      class="flex items-center gap-4"
+    >
+      <input
+        class="min-w-[2rem] min-h-[2rem]"
+        id="1"
+        name="completed"
+        type="checkbox"
+      />
+      <button
+        class="p-3 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-red-400 hover:cursor-pointer hover:bg-red-300"
+        data-testid="delete-button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+          />
+        </svg>
+      </button>
+    </div>
+  </article>
+</div>
+`;
+
+exports[`should render correctly3 1`] = `
+<div>
+  <form
+    class="flex gap-2 items-center"
+  >
+    <label
+      for="title"
+      hidden=""
+    >
+      New Todo
+    </label>
+    <input
+      class="text-2xl p-1 rounded-lg flex-grow w-full"
+      id="title"
+      name="title"
+      placeholder="New Todo"
+      type="text"
+      value=""
+    />
+    <button
+      class="p-2 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-green-500 hover:cursor-pointer hover:bg-green-400 disabled:bg-gray-300"
+      disabled=""
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+  <article
+    class="my-4 flex justify-between items-center"
+  >
+    <label
+      class="text-2xl hover:underline"
+      data-testid="todo-item"
+      for="4"
+    >
+      Write Code 💻
+    </label>
+    <div
+      class="flex items-center gap-4"
+    >
+      <input
+        class="min-w-[2rem] min-h-[2rem]"
+        id="4"
+        name="completed"
+        type="checkbox"
+      />
+      <button
+        class="p-3 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-red-400 hover:cursor-pointer hover:bg-red-300"
+        data-testid="delete-button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+          />
+        </svg>
+      </button>
+    </div>
+  </article>
+  <article
+    class="my-4 flex justify-between items-center"
+  >
+    <label
+      class="text-2xl hover:underline"
+      data-testid="todo-item"
+      for="3"
+    >
+      Go to Work ⚒
+    </label>
+    <div
+      class="flex items-center gap-4"
+    >
+      <input
+        class="min-w-[2rem] min-h-[2rem]"
+        id="3"
+        name="completed"
+        type="checkbox"
+      />
+      <button
+        class="p-3 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-red-400 hover:cursor-pointer hover:bg-red-300"
+        data-testid="delete-button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+          />
+        </svg>
+      </button>
+    </div>
+  </article>
+  <article
+    class="my-4 flex justify-between items-center"
+  >
+    <label
+      class="text-2xl hover:underline"
+      data-testid="todo-item"
+      for="2"
+    >
+      Get Coffee ☕☕☕
+    </label>
+    <div
+      class="flex items-center gap-4"
+    >
+      <input
+        class="min-w-[2rem] min-h-[2rem]"
+        id="2"
+        name="completed"
+        type="checkbox"
+      />
+      <button
+        class="p-3 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-red-400 hover:cursor-pointer hover:bg-red-300"
+        data-testid="delete-button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+          />
+        </svg>
+      </button>
+    </div>
+  </article>
+  <article
+    class="my-4 flex justify-between items-center"
+  >
+    <label
+      class="text-2xl hover:underline"
+      data-testid="todo-item"
+      for="1"
+    >
+      Wave hello! 👋
+    </label>
+    <div
+      class="flex items-center gap-4"
+    >
+      <input
+        class="min-w-[2rem] min-h-[2rem]"
+        id="1"
+        name="completed"
+        type="checkbox"
+      />
+      <button
+        class="p-3 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-red-400 hover:cursor-pointer hover:bg-red-300"
+        data-testid="delete-button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+          />
+        </svg>
+      </button>
+    </div>
+  </article>
+</div>
+`;
+
+exports[`should render correctly4 1`] = `
+<div>
+  <form
+    class="flex gap-2 items-center"
+  >
+    <label
+      for="title"
+      hidden=""
+    >
+      New Todo
+    </label>
+    <input
+      class="text-2xl p-1 rounded-lg flex-grow w-full"
+      id="title"
+      name="title"
+      placeholder="New Todo"
+      type="text"
+      value=""
+    />
+    <button
+      class="p-2 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-green-500 hover:cursor-pointer hover:bg-green-400 disabled:bg-gray-300"
+      disabled=""
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+  <article
+    class="my-4 flex justify-between items-center"
+  >
+    <label
+      class="text-2xl hover:underline"
+      data-testid="todo-item"
+      for="4"
+    >
+      Write Code 💻
+    </label>
+    <div
+      class="flex items-center gap-4"
+    >
+      <input
+        class="min-w-[2rem] min-h-[2rem]"
+        id="4"
+        name="completed"
+        type="checkbox"
+      />
+      <button
+        class="p-3 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-red-400 hover:cursor-pointer hover:bg-red-300"
+        data-testid="delete-button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+          />
+        </svg>
+      </button>
+    </div>
+  </article>
+  <article
+    class="my-4 flex justify-between items-center"
+  >
+    <label
+      class="text-2xl hover:underline"
+      data-testid="todo-item"
+      for="3"
+    >
+      Go to Work ⚒
+    </label>
+    <div
+      class="flex items-center gap-4"
+    >
+      <input
+        class="min-w-[2rem] min-h-[2rem]"
+        id="3"
+        name="completed"
+        type="checkbox"
+      />
+      <button
+        class="p-3 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-red-400 hover:cursor-pointer hover:bg-red-300"
+        data-testid="delete-button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+          />
+        </svg>
+      </button>
+    </div>
+  </article>
+  <article
+    class="my-4 flex justify-between items-center"
+  >
+    <label
+      class="text-2xl hover:underline"
+      data-testid="todo-item"
+      for="2"
+    >
+      Get Coffee ☕☕☕
+    </label>
+    <div
+      class="flex items-center gap-4"
+    >
+      <input
+        class="min-w-[2rem] min-h-[2rem]"
+        id="2"
+        name="completed"
+        type="checkbox"
+      />
+      <button
+        class="p-3 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-red-400 hover:cursor-pointer hover:bg-red-300"
+        data-testid="delete-button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+          />
+        </svg>
+      </button>
+    </div>
+  </article>
+  <article
+    class="my-4 flex justify-between items-center"
+  >
+    <label
+      class="text-2xl hover:underline"
+      data-testid="todo-item"
+      for="1"
+    >
+      Wave hello! 👋
+    </label>
+    <div
+      class="flex items-center gap-4"
+    >
+      <input
+        class="min-w-[2rem] min-h-[2rem]"
+        id="1"
+        name="completed"
+        type="checkbox"
+      />
+      <button
+        class="p-3 text-xl rounded-2xl text-black border-solid border-black border-2 max-w-xs bg-red-400 hover:cursor-pointer hover:bg-red-300"
+        data-testid="delete-button"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+          />
+        </svg>
+      </button>
+    </div>
+  </article>
+</div>
+`;
