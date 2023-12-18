@@ -11,6 +11,18 @@ export default function AddItemForm({ setTodos }: Props) {
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault()
 
+        const response1 = await fetch("/api/data1");
+        const response2 = await fetch("/api/data2");
+        const response3 = await fetch("/api/data3");
+        const response4 = await fetch("/api/data4");
+        const response5 = await fetch("/api/data5");
+        const response6 = await fetch("/api/data6");
+        const response7 = await fetch("/api/data7");
+        const response8 = await fetch("/api/data8");
+        const response9 = await fetch("/api/data9");
+        const response10 = await fetch("/api/data10");
+        const response11 = await fetch("/api/data11");
+        console.log(response1);
         if (!item) return
 
         setTodos(prev => {
